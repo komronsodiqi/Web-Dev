@@ -1,0 +1,52 @@
+# Python файлы кеша
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Лог-файлы и отладочные файлы
+*.log
+*.pot
+*.pid
+*.swp
+*.swo
+*.swn
+
+# Секретные файлы и настройки
+.env
+*.sqlite3
+db.sqlite3
+instance/
+config/settings/local.py  # Если у тебя есть локальные настройки
+
+# Кэш и временные файлы
+*.mo
+*.log
+*.bak
+*.dump
+*.~*
+
+# venv — виртуальное окружение
+venv/
+env/
+.venv/
+
+# Статические и медиафайлы (если они генерируются)
+staticfiles/
+media/
+
+# Скомпилированные файлы Django
+*.pyc
+*.pyo
+
+
+.idea/
+.vscode/
+*.iml
+
+# Миграции с конфликтами
+*/migrations/*.pyc
+*/migrations/*.pyo
+*/migrations/__pycache__/
+
+# Docker и контейнеры
+docker-compose.override.yml
